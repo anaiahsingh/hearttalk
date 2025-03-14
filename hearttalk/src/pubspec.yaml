@@ -1,0 +1,39 @@
+name: heart_talk
+description: A supportive audio messaging app
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  just_audio: ^0.9.36
+  path_provider: ^2.1.1
+  record: ^5.0.4
+  flutter_riverpod: ^2.4.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700 
